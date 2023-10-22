@@ -75,7 +75,7 @@ IaC DevOps (Container) adalah kelas yang akan memberi pelajaran tentang:
 2. Pengenalan Docker dan Podman - Apa perbezaan?
 3. Memahami Container Build Process - Docker
 3. Pengenalan Container Registry (Docker Registry)
-5. Pengenalan Container Orchestrator
+5. Pengenalan Container Orchestrator & Microservice Applications
 
 ### Praktikal:
 1. Pemasangan dan Konfigurasi Docker dalam Linux Server meggunakan Ansible
