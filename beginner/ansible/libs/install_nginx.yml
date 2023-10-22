@@ -1,0 +1,14 @@
+---
+- name: Install Nginx
+  hosts: all
+  tasks:
+    - name: Install Nginx
+      dnf:
+        name: nginx
+        state: present
+
+    - name: Start Nginx service
+      systemd:
+        name: nginx
+        enabled: yes
+        state: started

@@ -1,0 +1,21 @@
+---
+- name: Create user 'admin' with sudo privileges and update
+  hosts: all
+  tasks:
+    - name: Create user 'admin'
+      user:
+        name: admin
+        groups: wheel
+        state: present
+
+    - name: Allow 'admin' to run sudo without password
+      lineinfile:
+        dest: /etc/sudoers
+        line: 'admin ALL=(ALL) NOPASSWD:ALL'
+        validate: visudo -cf %s
+        insertafter: 'root ALL=(ALL) ALL'
+
+    - name: Update packages using dnf
+      dnf:
+        name: '*'
+        state: latest
