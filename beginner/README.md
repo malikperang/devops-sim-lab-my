@@ -95,9 +95,9 @@ IaC DevOps (Container) adalah kelas yang akan memberi pelajaran tentang:
 
 
 ### Course Learning Outcome (CLO)
-CLO adalah bermaksud  dan faedah yang anda akan pelajari selepas
 1. Students are able to build up the fundamental knowledges on Infrastructure and IaC as an enabler to DevOps practice.
 2. Students are able to demonstrate the difference between VM's and Containers administrations using IaC tools.
 3. Students are able to demonstrate autonomy of Application Rollout & Rollback to meet DevOps principles.
 4. Students are able to carry out Production ready VM's and Container servers with IaC solutions.
 5. Students are able to undestand the value,benefits, and needs of IaC to become a Junior DevOps
+6. Students are able to simulate the IaC knowledge over any IaC tools that available in this world
